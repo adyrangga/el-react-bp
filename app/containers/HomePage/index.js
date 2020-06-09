@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 /*
  * HomePage
  *
@@ -8,11 +9,13 @@
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
 import messages from './messages';
+import GradientBorder from '../../components/Example/gradientBorder';
 
 export default function HomePage() {
   return (
     <h1>
-      <FormattedMessage {...messages.header} />
+      {/* <FormattedMessage {...messages.header} /> */}
+      <GradientBorder />
     </h1>
   );
 }
